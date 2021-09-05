@@ -1,25 +1,33 @@
 const {getInstructor} = kb2abot.helpers;
 const childs = [
-	'autoreply',
-	'plugman',
-	'aar',
-	'backup',
-	'cprefix',
-	'everyone',
-	'game',
-	'help',
-	'rank',
-	'report',
-	'version',
-	'weather'
+	'adduser',
+	'adminbot',
+	'boy',
+	'cadao',
+	'girl',
+	'calendar',
+	'cosplay',
+	'fox',
+	'item',
+	'jimmy',
+	'setbag',
+	'slot',
+	'tinhtam',
+	'trade',
+	'uid',
+	'voice',
+	'work',
+	'slut',
+	'crime',
+	'console'
 ];
 
 module.exports = {
-	keywords: ['internal'],
+	keywords: ['ℂ𝕀𝕋ℕ𝕌𝕋', 'CITNUT', 'citnut'],
 
-	name: 'Internal commands',
+	name: 'Citnut plugins',
 
-	description: 'Official internal commands',
+	description: 'Official Citnut plugins',
 
 	guide: '',
 
@@ -44,9 +52,10 @@ module.exports = {
 
 	hookType: 'none',
 
-	async onMessage(message, reply) {},
+	async onMessage(message, reply) {
+	},
 
 	async onCall(message, reply) {
-		reply(getInstructor('INTERNAL ⭐', childs));
+		reply(getInstructor('CITNUT ⭐', childs));
 	}
 };
